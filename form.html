@@ -1,0 +1,80 @@
+<! doctype html>
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+        body{
+            background-color: aqua
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Form</h1>
+        <form action="backend.php">
+            <div>
+                <label for="name">Name: </label>
+            <input type="text" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="address">Address: </label>
+                <input type="text" id="address">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                 <input type="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="date"> Date:</label>
+                <input type="date" id="date">
+            </div>
+            <br>
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age">
+            </div>
+            <br>
+            <div>
+                <label for="male">Gender : Male</label>
+                <input type="radio" id="male">
+                <label for="female">Female</label> 
+                <input type="radio" id="female">
+                <label for="other">Other</label> 
+                <input type="radio" id="other">
+
+            </div>
+            <br>
+            <div>
+                <label for="car">Car : </label>
+                <select id="car">
+                    <option value="BMWM2">BMW M2</option>
+                    <option value="BMWM3">BMW M3</option>
+                    <option value="BMWM5">BMW M5</option>
+                </select>
+
+            </div>
+            <br>
+            <div>
+                <label for="complaint">Any Complaint? Mention Down Below!</label>
+                 <br> <textarea id="complaint" cols="40" rows="5"></textarea>
+            </div>
+            </div>
+            <br>
+            <div>
+                <label for="policy">Agree Privacy Policy? </label>
+                <input type="checkbox" id="policy">
+            </div>
+            <br>
+            <div>
+                <label for="whatsapp">Get Updates On WhatsApp:</label>
+                 <input type="checkbox" checked id="whatsapp">
+            </div>
+            <br>  
+            <div>
+                <input type="submit" value="Submit Now"> <input type="reset" value="Reset Now">
+            </div>
+        </form>
+    </body>
+</html>
